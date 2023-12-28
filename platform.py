@@ -15,7 +15,7 @@
 from platformio.public import PlatformBase
 
 
-class AtmelavrPlatform(PlatformBase):
+class IndustrialshieldsavrPlatform(PlatformBase):
 
     def configure_default_packages(self, variables, targets):
         if not variables.get("board"):
@@ -23,12 +23,12 @@ class AtmelavrPlatform(PlatformBase):
 
         build_core = variables.get(
             "board_build.core", self.board_config(variables.get("board")).get(
-                "build.core", "arduino"))
+                "build.core", "industrialshields"))
 
         if "arduino" in variables.get(
-                "pioframework", []) and build_core != "arduino":
+                "pioframework", []) and build_core != "industrialshields":
 
-            framework_package = "framework-arduino-avr-%s" % build_core.lower()
+            framework_package = "framework-industrialshields-avr-%s" % build_core.lower()
             if build_core in ("dtiny", "pro"):
                 framework_package = "framework-arduino-avr-digistump"
             elif build_core in ("tiny", "tinymodern"):
@@ -43,9 +43,9 @@ class AtmelavrPlatform(PlatformBase):
             ):
                 self.packages["tool-avrdude"]["version"] = "~1.70200.0"
 
-            self.frameworks["arduino"]["package"] = framework_package
+            self.frameworks["industrialshields"]["package"] = framework_package
             self.packages[framework_package]["optional"] = False
-            self.packages["framework-arduino-avr"]["optional"] = True
+            self.packages["framework-industrialshields-avr"]["optional"] = True
 
         upload_protocol = variables.get(
             "upload_protocol",

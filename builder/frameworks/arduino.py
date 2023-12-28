@@ -31,12 +31,12 @@ platform = env.PioPlatform()
 board = env.BoardConfig()
 build_core = board.get("build.core", "")
 
-FRAMEWORK_DIR = platform.get_package_dir("framework-arduino-avr")
+FRAMEWORK_DIR = platform.get_package_dir("framework-industrialshields-avr")
 if build_core in ("dtiny", "pro"):
     FRAMEWORK_DIR = platform.get_package_dir("framework-arduino-avr-digistump")
 elif build_core in ("tiny", "tinymodern"):
     FRAMEWORK_DIR = platform.get_package_dir("framework-arduino-avr-attiny")
-elif build_core != "arduino":
+elif build_core != "industrialshields":
     FRAMEWORK_DIR = platform.get_package_dir(
         "framework-arduino-avr-%s" % build_core.lower())
 

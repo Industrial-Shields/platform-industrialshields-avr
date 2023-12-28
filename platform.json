@@ -1,6 +1,6 @@
 {
-  "name": "atmelavr",
-  "title": "Atmel AVR",
+  "name": "industrialshields-avr",
+  "title": "Industrial Shields AVR",
   "description": "Atmel AVR 8-bit MCUs deliver a unique combination of performance, power efficiency and design flexibility. Optimized to speed time to market-and easily adapt to new ones-they are based on the industry's most code-efficient architecture for C and assembly programming",
   "homepage": "http://www.atmel.com/products/microcontrollers/avr/default.aspx",
   "license": "Apache-2.0",
@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/platformio/platform-atmelavr.git"
+    "url": "https://github.com/Industrial-Shields/platform-industrialshields-avr.git"
   },
-  "version": "5.0.0",
+  "version": "1.0.0",
   "frameworks": {
     "arduino": {
-      "package": "framework-arduino-avr",
+      "package": "framework-industrialshields-avr",
       "script": "builder/frameworks/arduino.py"
     }
   },
@@ -31,11 +31,11 @@
       "owner": "platformio",
       "version": "~1.70300.0"
     },
-    "framework-arduino-avr": {
+    "framework-industrialshields-avr": {
       "type": "framework",
       "optional": true,
       "owner": "platformio",
-      "version": "~5.2.0"
+      "version": "1.1.42"
     },
     "framework-arduino-avr-attiny": {
       "type": "framework",
