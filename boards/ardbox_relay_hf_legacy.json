@@ -1,0 +1,52 @@
+{
+    "build": {
+        "core": "industrialshields",
+        "extra_flags": " -DARDBOX_HF -DARDBOX_RELAY_HF -DARDBOX_RELAY_HF_LEGACY",
+        "f_cpu": "16000000L",
+        "hwids": [
+            [
+                "0x2341",
+                "0x8036"
+            ],
+            [
+                "0x2341",
+                "0x0036"
+            ],
+            [
+                "0x2A03",
+                "0x0036"
+            ],
+            [
+                "0x2A03",
+                "0x8036"
+            ]
+        ],
+        "mcu": "atmega32u4",
+        "usb_product": "Arduino Leonardo",
+        "variant": "ardboxrelayhf"
+    },
+    "bootloader": {
+        "efuse": "0xCB",
+        "file": "caterina/Caterina-Leonardo.hex",
+        "hfuse": "0xD8",
+        "lock_bits": "0x2F",
+        "lfuse": "0xFF",
+        "unlock_bits": "0x3F"
+    },
+    "frameworks": [
+        "arduino"
+    ],
+    "name": "Ardbox Relay HF (legacy)",
+    "upload": {
+        "disable_flushing": true,
+        "maximum_ram_size": 2560,
+        "maximum_size": 28672,
+        "protocol": "avr109",
+        "require_upload_port": true,
+        "speed": 57600,
+        "use_1200bps_touch": true,
+        "wait_for_upload_port": true
+    },
+    "url": "",
+    "vendor": "Industrial Shields"
+}
