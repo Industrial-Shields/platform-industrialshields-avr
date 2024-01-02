@@ -36,7 +36,7 @@
     "frameworks": [
         "arduino"
     ],
-    "name": "Ardbox Relay HF+ w/ HW RS-232LoRa",
+    "name": "Ardbox Relay HF+ w/ HW RS-232 LoRa",
     "upload": {
         "disable_flushing": true,
         "maximum_ram_size": 2560,

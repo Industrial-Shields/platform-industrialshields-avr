@@ -36,7 +36,7 @@
     "frameworks": [
         "arduino"
     ],
-    "name": "Ardbox Analog HF+ w/ HW RS-485LoRa",
+    "name": "Ardbox Analog HF+ w/ HW RS-485 LoRa",
     "upload": {
         "disable_flushing": true,
         "maximum_ram_size": 2560,

@@ -36,7 +36,7 @@
     "frameworks": [
         "arduino"
     ],
-    "name": "Ardbox Analog HF+ w/ HW RS-485GPRS",
+    "name": "Ardbox Analog HF+ w/ HW RS-485 GPRS",
     "upload": {
         "disable_flushing": true,
         "maximum_ram_size": 2560,
