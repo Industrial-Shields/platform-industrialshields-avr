@@ -18,7 +18,11 @@
 #include <Arduino.h>
 
 
+// Include Industrial Shields libraries
 #include <DALI.h>
+
+//// IMPORTANT: check switches configuration
+
 
 DALI dali(18, 19);
 
