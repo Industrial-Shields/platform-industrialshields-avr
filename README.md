@@ -1,35 +1,21 @@
-# Atmel AVR: development platform for [PlatformIO](https://platformio.org)
+# Industrial Shields Arduino PLCs: development platform for [PlatformIO](https://platformio.org)
 
-[![Build Status](https://github.com/platformio/platform-atmelavr/workflows/Examples/badge.svg)](https://github.com/platformio/platform-atmelavr/actions)
-
-Atmel AVR 8- and 32-bit MCUs deliver a unique combination of performance, power efficiency and design flexibility. Optimized to speed time to market-and easily adapt to new ones-they are based on the industrys most code-efficient architecture for C and assembly programming.
-
-* [Home](https://registry.platformio.org/platforms/platformio/atmelavr) (home page in the PlatformIO Registry)
-* [Documentation](https://docs.platformio.org/page/platforms/atmelavr.html) (advanced usage, packages, boards, frameworks, etc.)
+This repository contains the configurations and examples to use the PlatformIO ecosystem with our Industrial Shields PLCs based on Arduino open-source hardware. You can check the documentation of our Arduino-based PLCs in our [web page](https://www.industrialshields.com/industrial-plc-based-on-arduino-original-boards-automation-solutions-202209-lp).
 
 # Usage
 
 1. [Install PlatformIO](https://platformio.org)
-2. Create PlatformIO project and configure a platform option in [platformio.ini](https://docs.platformio.org/page/projectconf.html) file:
+2. Create a PlatformIO project and configure a platform option in the [platformio.ini](https://docs.platformio.org/page/projectconf.html) file:
 
-## Stable version
+``` ini
+[env]
+platform_packages =
+   framework-industrialshields-avr@https://apps.industrialshields.com/main/arduino/boards/industrialshields-boards-avr-X.X.X.tar.bz2
 
-```ini
-[env:stable]
-platform = atmelavr
+[env:board]
+platform = https://github.com/Industrial-Shields/platform-industrialshields-avr.git
 board = ...
 ...
 ```
 
-## Development version
-
-```ini
-[env:development]
-platform = https://github.com/platformio/platform-atmelavr.git
-board = ...
-...
-```
-
-# Configuration
-
-Please navigate to [documentation](https://docs.platformio.org/page/platforms/atmelavr.html).
+You can check all the available versions in https://apps.industrialshields.com/main/arduino/boards/ (all versions below 1.1.42 do NOT support PlatformIO).
