@@ -43,7 +43,7 @@ BASE_PLATFORMIO_INI = \
 
 [env]
 platform_packages =
-   framework-industrialshields-avr@http://localhost:8000/avr.tar.bz2
+   framework-industrialshields-avr@https://apps.industrialshields.com/main/arduino/boards/industrialshields-boards-avr-1.1.42.tar.bz2
 
 """
 
