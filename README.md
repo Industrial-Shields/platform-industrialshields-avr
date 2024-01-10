@@ -14,6 +14,7 @@ platform_packages =
 
 [env:board]
 platform = https://github.com/Industrial-Shields/platform-industrialshields-avr.git
+framework = arduino
 board = ...
 ...
 ```
