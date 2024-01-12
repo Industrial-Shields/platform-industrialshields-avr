@@ -10,6 +10,7 @@ This repository contains the configurations and examples to use the PlatformIO e
 ``` ini
 [env]
 platform_packages =
+   ; You need to specify a version instead of "X.X.X". The last one when this README was updated is 1.1.42.
    framework-industrialshields-avr@https://apps.industrialshields.com/main/arduino/boards/industrialshields-boards-avr-X.X.X.tar.bz2
 
 [env:board]
