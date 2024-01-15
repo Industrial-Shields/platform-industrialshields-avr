@@ -18,7 +18,7 @@
     "type": "git",
     "url": "https://github.com/Industrial-Shields/platform-industrialshields-avr.git"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "frameworks": {
     "arduino": {
       "package": "framework-industrialshields-avr",
