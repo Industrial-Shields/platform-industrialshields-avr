@@ -1,17 +1,24 @@
 {
     "build": {
         "core": "industrialshields",
-        "extra_flags": " -DMDUINO_PLUS -DMDUINO_53ARR_PLUS -DMDUINO_LORA_PLUS",
+        "extra_flags": "-DARDUINO_AVR_MEGA2560 -DMDUINO_PLUS -DMDUINO_53ARR_PLUS -DMDUINO_LORA_PLUS",
         "f_cpu": "16000000L",
+        "hwids": [
+            [
+                "0x2341",
+                "0x0042"
+            ]
+        ],
         "mcu": "atmega2560",
         "variant": "mduinoplus"
     },
     "bootloader": {
-        "led_pin": "B7",
-        "uart0_pins": "uart0_rxe0_txe1",
-        "uart1_pins": "uart1_rxd2_txd3",
-        "uart2_pins": "uart2_rxh0_txh1",
-        "uart3_pins": "uart3_rxj0_txj1"
+        "efuse": "0xFD",
+        "file": "stk500v2/stk500boot_v2_mega2560.hex",
+        "hfuse": "0xD8",
+        "lock_bits": "0x0F",
+        "lfuse": "0xFF",
+        "unlock_bits": "0x3F"
     },
     "frameworks": [
         "arduino"
@@ -19,8 +26,8 @@
     "name": "M-Duino PLC 53ARR+ LoRa",
     "upload": {
         "maximum_ram_size": 8192,
-        "maximum_size": 262144,
-        "protocol": "urclock",
+        "maximum_size": 253952,
+        "protocol": "wiring",
         "require_upload_port": true,
         "speed": 115200
     },
