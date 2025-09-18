@@ -1,0 +1,36 @@
+{
+    "build": {
+        "core": "industrialshields",
+        "extra_flags": "-DARDUINO_AVR_MEGA2560 -DMDUINO_PLUS -DMDUINO_38R_PLUS -DMDUINO_WIFI_GPRS_PLUS",
+        "f_cpu": "16000000L",
+        "hwids": [
+            [
+                "0x2341",
+                "0x0042"
+            ]
+        ],
+        "mcu": "atmega2560",
+        "variant": "mduinoplus"
+    },
+    "bootloader": {
+        "efuse": "0xFD",
+        "file": "stk500v2/stk500boot_v2_mega2560.hex",
+        "hfuse": "0xD8",
+        "lock_bits": "0x0F",
+        "lfuse": "0xFF",
+        "unlock_bits": "0x3F"
+    },
+    "frameworks": [
+        "arduino"
+    ],
+    "name": "M-Duino PLC 38R+ WiFi/BT + GPRS",
+    "upload": {
+        "maximum_ram_size": 8192,
+        "maximum_size": 253952,
+        "protocol": "wiring",
+        "require_upload_port": true,
+        "speed": 115200
+    },
+    "url": "",
+    "vendor": "Industrial Shields"
+}

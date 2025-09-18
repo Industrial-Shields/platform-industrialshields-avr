@@ -98,7 +98,18 @@ mduinoplus_plcs = \
      M("mduinoplc_54ara+", "M-Duino PLC 54ARA+", "mduinoplus", "-DMDUINO_PLUS -DMDUINO_54ARA_PLUS", "www.industrialshields.com/shop/m-duino-ethernet-plc-arduino-54ara-688"),
      M("mduinoplc_57aar+", "M-Duino PLC 57AAR+", "mduinoplus", "-DMDUINO_PLUS -DMDUINO_57AAR_PLUS", "www.industrialshields.com/shop/m-duino-ethernet-plc-arduino-57aar-436"),
      M("mduinoplc_57r+", "M-Duino PLC 57R+", "mduinoplus", "-DMDUINO_PLUS -DMDUINO_57R_PLUS", "www.industrialshields.com/shop/m-duino-ethernet-plc-arduino-57r-13"),
-     M("mduinoplc_58+", "M-Duino PLC 58+", "mduinoplus", "-DMDUINO_PLUS -DMDUINO_58_PLUS", "www.industrialshields.com/shop/m-duino-ethernet-plc-arduino-58-176")]
+     M("mduinoplc_58+", "M-Duino PLC 58+", "mduinoplus", "-DMDUINO_PLUS -DMDUINO_58_PLUS", "www.industrialshields.com/shop/m-duino-ethernet-plc-arduino-58-176"),
+     M("mduinoplc_19r_plus", "M-Duino PLC 19R+", "mduinoplus", "-DMDUINO_PLUS -DMDUINO_19R_PLUS", "www.industrialshields.com/shop/m-duino-ethernet-plc-arduino-19r-8"),
+     M("mduinoplc_21_plus", "M-Duino PLC 21+", "mduinoplus", "-DMDUINO_PLUS -DMDUINO_21_PLUS", "www.industrialshields.com/shop/m-duino-ethernet-plc-arduino-21-3670"),
+     M("mduinoplc_38ar_plus", "M-Duino PLC 38AR+", "mduinoplus", "-DMDUINO_PLUS -DMDUINO_38AR_PLUS", "www.industrialshields.com/shop/m-duino-ethernet-plc-arduino-38ar-12"),
+     M("mduinoplc_38r_plus", "M-Duino PLC 38R+", "mduinoplus", "-DMDUINO_PLUS -DMDUINO_38R_PLUS", "www.industrialshields.com/shop/m-duino-ethernet-plc-arduino-38r-10"),
+     M("mduinoplc_42_plus", "M-Duino PLC 42+", "mduinoplus", "-DMDUINO_PLUS -DMDUINO_42_PLUS", "www.industrialshields.com/shop/m-duino-ethernet-plc-arduino-42-3667"),
+     M("mduinoplc_50rra_plus", "M-Duino PLC 50RRA+", "mduinoplus", "-DMDUINO_PLUS -DMDUINO_50RRA_PLUS", "www.industrialshields.com/shop/is-mduino-50rra-m-duino-ethernet-plc-arduino-50rra-488"),
+     M("mduinoplc_53arr_plus", "M-Duino PLC 53ARR+", "mduinoplus", "-DMDUINO_PLUS -DMDUINO_53ARR_PLUS", "www.industrialshields.com/shop/m-duino-ethernet-plc-arduino-53arr-468"),
+     M("mduinoplc_54ara_plus", "M-Duino PLC 54ARA+", "mduinoplus", "-DMDUINO_PLUS -DMDUINO_54ARA_PLUS", "www.industrialshields.com/shop/m-duino-ethernet-plc-arduino-54ara-688"),
+     M("mduinoplc_57aar_plus", "M-Duino PLC 57AAR+", "mduinoplus", "-DMDUINO_PLUS -DMDUINO_57AAR_PLUS", "www.industrialshields.com/shop/m-duino-ethernet-plc-arduino-57aar-436"),
+     M("mduinoplc_57r_plus", "M-Duino PLC 57R+", "mduinoplus", "-DMDUINO_PLUS -DMDUINO_57R_PLUS", "www.industrialshields.com/shop/m-duino-ethernet-plc-arduino-57r-13"),
+     M("mduinoplc_58_plus", "M-Duino PLC 58+", "mduinoplus", "-DMDUINO_PLUS -DMDUINO_58_PLUS", "www.industrialshields.com/shop/m-duino-ethernet-plc-arduino-58-176")]
 
 
 
